@@ -82,10 +82,31 @@ vim hello_world.cpp_
 std::getline(std::cin, name); //Ввод строки с пробелами
 ```
 
-_git commit -m "Added comments"<br/>
+_git commit -m "Added comment"<br/>
 git push origin patch1_
 
 1. Появились изменения в PR
-2. производим слияние и удаляем ветку
+2. Производим слияние и удаляем ветку
 
 ![pull](https://github.com/Dan10022002/task_lab02/blob/master/pull.png)
+
+###Part III
+
+_git branch patch2<br/>
+git checkout patch2<br/>
+clang-format --style=Mozilla hello_world.cpp<br/>
+git commit -m "Commit for rebase"_
+
+1. Был создан PR parch2 -> master В ветке master в коде перевел комментарий
+2. В PR появились конфликты
+
+_git pull origin master<br/>
+git rebase master_
+
+В терминале появились конфликты и для их исправления использовал vim Полсе всех исправления снова выполнил rebase
+
+_git rebase master<br/>
+git push -f origin patch2_
+
+3. В PR пропали конфликты
+4. Завершил мерж patch2 -> master
