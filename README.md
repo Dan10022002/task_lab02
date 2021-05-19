@@ -15,7 +15,7 @@ cd task_timp_lab02<br/>
 git init<br/>
 git remote add origin https://github.com/Dan10022002/task_lab02.git_
 
-1. Создаём файл hello-world.cpp и комитим его
+3. Создаём файл hello-world.cpp и комитим его
 
 _touch hello_world.cpp<br/>
 vim hellp_world.cpp_
