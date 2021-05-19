@@ -6,7 +6,7 @@
 
 ## Homework
 
-###Part I
+### Part I
 
 1. Создаём репозиторий task_lab02
 2. Создаём и инициализируем папку task_lab02
@@ -55,7 +55,7 @@ vim hello_world.cpp_
  git push origin master<br/>
  git log_
 
-###Part II
+### Part II
 
 _git branch patch1<br/>
 git checkout patch1<br/>
@@ -90,7 +90,7 @@ git push origin patch1_
 
 ![pull](https://github.com/Dan10022002/task_lab02/blob/master/pull.png)
 
-###Part III
+### Part III
 
 _git branch patch2<br/>
 git checkout patch2<br/>
