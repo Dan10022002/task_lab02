@@ -29,3 +29,28 @@ cout << "Hello, world!" << endl;
 return 0;
 }
 ```
+
+_git add .<br/>
+git commit -m "First commit"<br/>
+vim hello_world.cpp_
+```sh
+ #include <iostream>
+ #include <string>
+ 
+ using namespace std;
+ 
+ int main() {
+ string name;
+ cin >> name;
+ cout << "Hello world from " << name << endl;
+ return 0;
+ }
+ ```
+ 
+ 4. Повторно добавлять файл не нужно, так как гит уже "следит" за файлом *hello_world.cpp*
+ 
+ _git commit -m "Change program hello_world.cpp"<br/>
+ git push origin master<br/>
+ git log_
+
+
