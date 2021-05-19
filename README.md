@@ -6,6 +6,8 @@
 
 ## Homework
 
+###Part I
+
 1. Создаём репозиторий task_lab02
 2. Создаём и инициализируем папку task_lab02
 
@@ -53,4 +55,37 @@ vim hello_world.cpp_
  git push origin master<br/>
  git log_
 
+###Part II
 
+_git branch patch1<br/>
+git checkout patch1<br/>
+vim hello_world.cpp_
+
+```sh
+#include <iostream>
+#include <string>
+
+int main() {
+std::string name;
+std::getline(std::cin, name);
+std::cout << "Hello world from " << name << std::endl;
+return 0;
+}
+```
+
+_git add .<br/>
+git commit -m "Create new branch and chande code"<br/>
+git push origin patch1<br/>
+vim hello_world.cpp_
+
+```sh
+std::getline(std::cin, name); //Ввод строки с пробелами
+```
+
+_git commit -m "Added comments"<br/>
+git push origin patch1_
+
+1. Появились изменения в PR
+2. производим слияние и удаляем ветку
+
+![pull](https://github.com/Dan10022002/task_lab02/blob/master/pull.png)
