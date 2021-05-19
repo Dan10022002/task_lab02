@@ -9,7 +9,7 @@
 1. Создаём репозиторий task_lab02
 2. Создаём и инициализируем папку task_lab02
 
-_cd Dan10022002/workspace/tasks
+_cd Dan10022002/workspace/tasks<br/>
 mkdir task_timp_lab02
 cd task_timp_lab02
 git init
