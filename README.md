@@ -20,7 +20,7 @@ git remote add origin https://github.com/Dan10022002/task_lab02.git_
 3. Создаём файл hello-world.cpp и комитим его
 
 _touch hello_world.cpp<br/>
-vim hellp_world.cpp_
+vim hello_world.cpp_
 ```sh
 #include <iostream>
   
