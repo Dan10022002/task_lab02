@@ -19,7 +19,7 @@ git remote add origin https://github.com/Dan10022002/task_lab02.git_
 
 _touch hello_world.cpp<br/>
 vim hellp_world.cpp_
-***
+'''
 #include <iostream>
   
 using namespace std;
@@ -28,4 +28,4 @@ int main() {
 cout << "Hello, world!" << endl;
 return 0;
 }
-***
+'''
