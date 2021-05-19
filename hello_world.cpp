@@ -3,7 +3,7 @@
 
 int main() {
 string name;
-cin >> name;
+std::getline(std::cin, name); //Ввод строки с пробелами
 cout << "Hello, world from " << name << endl;
 return 0;
 }
